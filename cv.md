@@ -33,6 +33,7 @@ and soft skills.
 #### Education
 
 **June 2019 – August 2019** – Educational Center of HTP (IT-Academy)
+
 Course: **Business analysis for IT**
 
 **2008 – 2010** – Institute of retraining and advanced training of trade managers and specialists
