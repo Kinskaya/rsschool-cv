@@ -1,0 +1,63 @@
+html, body, div, span, h1, h2, h3, h4, h5, p, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    vertical-align: baseline;
+}
+.wrapper{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.main{
+    height: 935px;
+    float: left;
+    width: 350px;
+    background: #5e83ba;
+    color: #c2d2e9;
+}
+.extras{
+    height: 935px;
+    float: left;
+    width: 550px;
+    margin: 0;
+    background: #c2d2e9;
+    color: #094d74;
+}
+img{
+    width: 200px;
+    border: 3px solid #c2d2e9;
+    border-radius: 25px;
+}
+.photo{
+  margin: 20px 75px;
+}
+.contact_me, .skills, .lang, .code, .self, .summary, .work, .education{
+    text-align: center;
+}
+.entry{
+    margin: 40px 20px;
+}
+.content{
+    margin: 40px 20px;
+}
+.self{
+    margin: 20px;
+}
+
+.about_me{
+    margin: 20px;
+    text-align: justify;
+}
+.edu_one, .edu_two, .edu_three{
+    margin: 20px;
+}
+.my_name{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.job{
+    margin: 20px;
+    font-size: 18px;
+}
