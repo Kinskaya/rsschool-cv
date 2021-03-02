@@ -2,27 +2,27 @@ html, body, div, span, h1, h2, h3, h4, h5, p, a {
     margin: 0;
     padding: 0;
     border: 0;
-
     vertical-align: baseline;
 }
 .wrapper{
     max-width: 900px;
     margin: 0 auto;
+    display: flex;
+
 }
-.main{
+.main_info{
     height: 935px;
     float: left;
-    width: 350px;
-    background: #5e83ba;
-    color: #c2d2e9;
+    width: 550px;
+    background: #c2d2e9;
+    color: #094d74;
 }
 .extras{
     height: 935px;
     float: left;
-    width: 550px;
-    margin: 0;
-    background: #c2d2e9;
-    color: #094d74;
+    width: 350px;
+    background: #5e83ba;
+    color: #C2D2CD;
 }
 img{
     width: 200px;
@@ -30,27 +30,26 @@ img{
     border-radius: 25px;
 }
 .photo{
-  margin: 20px 75px;
+    margin: 20px 75px;
 }
 .contact_me, .skills, .lang, .code, .self, .summary, .work, .education{
     text-align: center;
 }
-.entry{
-    margin: 40px 20px;
-}
-.content{
+
+.about_me, .work_experience, .education, .contacts, .my_skills, .languages, .code_example{
     margin: 40px 20px;
 }
 .self{
     margin: 20px;
 }
 
-.about_me{
-    margin: 20px;
+.about_me_content{
     text-align: justify;
-}
-.edu_one, .edu_two, .edu_three{
     margin: 20px;
+}
+.edu_one, .edu_two, .edu_three, .edu_four{
+    margin: 20px;
+    text-align: left;
 }
 .my_name{
     margin: 20px;
@@ -60,4 +59,42 @@ img{
 .job{
     margin: 20px;
     font-size: 18px;
+}
+
+.additional_info{
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    text-align: center;
+    justify-content: space-around;
+    width: 450px;
+    margin-left: 50px;
+
+}
+.github{
+    align-self: center;
+}
+img.school{
+    width: 140px;
+    height: 40px;
+}
+.year{
+    align-self: center;
+    color: black;
+}
+address{
+    font-style: normal;
+}
+p.contacts{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    text-transform: uppercase;
+}
+h5{
+    text-transform: uppercase;
+    text-align: center;
 }
