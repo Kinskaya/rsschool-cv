@@ -32,10 +32,13 @@ img{
 .photo{
     margin: 20px 75px;
 }
-.contact_me, .skills, .lang, .code, .self, .summary, .work, .education{
+.skills, .lang, .code, .self, .summary, .work, .education{
     text-align: center;
 }
 
+.contacts p {
+    text-align: center;
+}
 .about_me, .work_experience, .education, .contacts, .my_skills, .languages, .code_example{
     margin: 40px 20px;
 }
@@ -47,9 +50,9 @@ img{
     text-align: justify;
     margin: 20px;
 }
-.edu_one, .edu_two, .edu_three, .edu_four{
+.edu{
     margin: 20px;
-    text-align: left;
+    text-align: justify;
 }
 .my_name{
     margin: 20px;
@@ -97,4 +100,10 @@ h4{
 h5{
     text-transform: uppercase;
     text-align: center;
+}
+
+pre{
+    text-align: left;
+    white-space: pre-line;
+    text-shadow: #666666;
 }
