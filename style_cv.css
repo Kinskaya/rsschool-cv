@@ -11,14 +11,12 @@ html, body, div, span, h1, h2, h3, h4, h5, p, a {
 
 }
 .main_info{
-    height: 935px;
     float: left;
     width: 550px;
     background: #c2d2e9;
     color: #094d74;
 }
 .extras{
-    height: 935px;
     float: left;
     width: 350px;
     background: #5e83ba;
