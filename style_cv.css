@@ -3,45 +3,54 @@ html, body, div, span, h1, h2, h3, h4, h5, p, a {
     padding: 0;
     border: 0;
     vertical-align: baseline;
-
+    text-decoration: none;
+    font-family: Palatino, serif;
 }
+
 .wrapper {
+    height: 100%;
     margin: 0 auto;
     display: flex;
     box-sizing: border-box;
 }
 
 .main_cv {
-    display: flex;
     margin: 0 auto;
-    min-width: 900px;
+    width: 100%;
+    max-width: 900px;
+    padding: 0 10px;
 }
 
 .main_info {
-    height: 100vh;
+    height:100%;
     float: left;
-    width: 550px;
+    width: 62%;
     background: #c2d2e9;
     color: #094d74;
 }
 
 .extras {
-    height: 100vh;
+    height:100%;
     float: left;
-    width: 350px;
-    background: #5e83ba;
-    color: #C2D2CD;
+    width: 38%;
+    background-color: #5e83ba;
+    color: #c2d2cd;
 }
 
-img {
-    width: 200px;
+.web a {
+    color: #c2d2cd;
+}
+
+.photo img {
+    max-width: 200px;
+    width: 100%;
     border: 3px solid #c2d2e9;
     border-radius: 25px;
 }
 
 .photo {
-    margin: 20px 75px;
-
+    text-align: center;
+    margin-top: 20px;
 }
 
 .skills, .lang, .code, .self, .summary, .work, .education {
@@ -55,10 +64,6 @@ img {
     margin: 40px 20px;
 }
 
-.self {
-    margin: 20px;
-}
-
 .about_me_content {
     text-align: justify;
     margin: 20px;
@@ -69,25 +74,33 @@ img {
     text-align: justify;
 }
 
-.my_name {
+.edu em {
+    color: #a560b1;
+}
+
+.name {
     margin: 20px;
+}
+
+h1 {
+    font-size: 1.75rem;
 }
 
 .job {
     margin: 20px;
-    font-size: 18px;
+    box-shadow: inset 0 0 7px;
+    font-style: italic;
 }
 
 .additional_info {
-   /* position: absolute;*/
     display: flex;
+    flex-wrap: wrap;
+    max-width: 558px;
+    width: 100%;
     bottom: 10px;
     color: white;
     text-align: center;
     justify-content: space-around;
-    width: 450px;
-    margin-left: 50px;
-
 }
 
 .github {
@@ -108,13 +121,11 @@ address {
     font-style: normal;
 }
 
-p.contacts {
-    text-align: center;
-}
-
-h4, h5 {
+h4, h5, .contacts p {
     text-align: center;
     text-transform: uppercase;
+    color: #38379a;
+    text-shadow: 0 5px 8px #c4b59d, 0 -2px 1px #fff;
 }
 
 pre {
@@ -140,7 +151,7 @@ pre {
 
 .projects_content {
     position: absolute;
-    top: 210px;
+    top: 72%;
     left: 20px;
     text-decoration: none;
     color: coral;
