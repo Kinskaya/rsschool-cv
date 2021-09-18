@@ -3,68 +3,84 @@ html, body, div, span, h1, h2, h3, h4, h5, p, a {
     padding: 0;
     border: 0;
     vertical-align: baseline;
-}
-.wrapper{
-    max-width: 900px;
-    margin: 0 auto;
-    display: flex;
 
 }
-.main_info{
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.main_cv {
+    display: flex;
+    margin: 0 auto;
+    min-width: 900px;
+}
+
+.main_info {
+    height: 100vh;
     float: left;
     width: 550px;
     background: #c2d2e9;
     color: #094d74;
 }
-.extras{
+
+.extras {
+    height: 100vh;
     float: left;
     width: 350px;
     background: #5e83ba;
     color: #C2D2CD;
 }
-img{
+
+img {
     width: 200px;
     border: 3px solid #c2d2e9;
     border-radius: 25px;
 }
-.photo{
+
+.photo {
     margin: 20px 75px;
+
 }
-.skills, .lang, .code, .self, .summary, .work, .education{
+
+.skills, .lang, .code, .self, .summary, .work, .education {
     text-align: center;
 }
 
 .contacts p {
     text-align: center;
 }
-.about_me, .work_experience, .education, .contacts, .my_skills, .languages, .code_example{
+.about_me, .work_experience, .education, .contacts, .my_skills, .languages, .code_example {
     margin: 40px 20px;
 }
-.self{
+
+.self {
     margin: 20px;
 }
 
-.about_me_content{
+.about_me_content {
     text-align: justify;
     margin: 20px;
 }
-.edu{
+
+.edu {
     margin: 20px;
     text-align: justify;
 }
-.my_name{
+
+.my_name {
     margin: 20px;
-    font-size: 20px;
-    font-weight: bold;
 }
-.job{
+
+.job {
     margin: 20px;
     font-size: 18px;
 }
 
-.additional_info{
+.additional_info {
+   /* position: absolute;*/
     display: flex;
-    position: absolute;
     bottom: 10px;
     color: white;
     text-align: center;
@@ -73,35 +89,65 @@ img{
     margin-left: 50px;
 
 }
-.github{
+
+.github {
     align-self: center;
 }
-img.school{
+
+img.school {
     width: 140px;
     height: 40px;
 }
-.year{
+
+.year {
     align-self: center;
     color: black;
 }
-address{
+
+address {
     font-style: normal;
 }
-p.contacts{
+
+p.contacts {
     text-align: center;
 }
 
-h4{
+h4, h5 {
     text-align: center;
     text-transform: uppercase;
-}
-h5{
-    text-transform: uppercase;
-    text-align: center;
 }
 
-pre{
+pre {
     text-align: left;
     white-space: pre-line;
-    text-shadow: #666666;
+}
+
+.projects_item {
+    max-width: 510px;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+.projects_img {
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.projects_content {
+    position: absolute;
+    top: 210px;
+    left: 20px;
+    text-decoration: none;
+    color: coral;
+    border: #4dab8c solid 2px;
+    border-radius: 5px;
+}
+
+.projects_subtitle {
+    color: #4dab8c;
 }
