@@ -39,6 +39,7 @@ return count;
 })
 ```
 
+
 #### Work experience
 
 
@@ -50,20 +51,22 @@ Course: **Angular**
 
 Description: *studying theory and development an Angular app.*
 
+
 **December 2020 – July 2021** – The Rolling Scopes School
 
 Course: **JavaScript/Front-end**
 
 Description: *solving algorithmic tasks; development layouts including adaptive ones (practice with Figma and PixelPerfect); development apps, including SPA; presentation experience in Reveal.js in English (about Jira), self-presentation*
 
+
 **June 2019 – August 2019** – Educational Center of HTP (IT-Academy)
 
 Course: **Business analysis for IT**
 
+
 **2008 – 2010** – Institute of retraining and advanced training of trade managers and specialists
 
 Specialization: **Logistics specialist-economist**
-
 
 
 **2002 – 2007** – Russian state social University, branch in Minsk

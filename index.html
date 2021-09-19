@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CV</title>
+    <link type="text/css" rel="stylesheet" href="style_cv.css">
+    <link rel="stylesheet" href="rainbow.min.css">
+    <script src="highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script>console.log("моя оценка - 146 баллов: вёрстка валидная +10, вёрстка семантическая +18/20 - 9 тегов, " +
+        "для оформления СV используются css-стили +10," +
+        "контент размещается в блоке, который горизонтально центрируется на странице. Фоновый цвет, если он есть, " +
+        "тянется во всю ширину страницы +10," +
+        "вёрстка адаптивная: +8/10 - в блоке кода появляется прокрутка, на странице СV присутствует изображение - " +
+        "фото или аватарка автора CV +10," +
+        "контакты для связи и перечень навыков оформлены в виде списка ul > li +10, " +
+        "CV содержит контакты для связи, краткую информацию о себе, перечень навыков, информацию об образовании " +
+        "и уровне английского +10," +
+        "CV содержит пример вашего кода с подсветкой кода +10, " +
+        "CV содержит изображения-ссылки на выполненные вами проекты + 10," +
+        "CV выполнено на английском языке +10, есть видеорезюме автора CV на английском языке +10," +
+        "дизайн, оформление, качество выполнения CV не ниже чем в примерах CV + 10, " +
+        "выполнены требования к Pull Request +10," +
+        "нет адаптивного бургер-меню -10")
+    </script>
+</head>
+<body>
+
+<div class="wrapper">
+  <main class="main_cv">
+    <div class="extras">
+        <div class="photo">
+            <img src="photo.jpg" alt="my-photo">
+        </div>
+        <address class="contacts">
+            <p>CONTACT ME</p>
+            <div class="contact_details">
+                <ul>
+                    <li class="tel">
+                        Phone: +375445157862
+                    </li>
+                    <li class="mail">
+                        Email: kinskaya.nastya@gmail.com
+                    </li>
+                    <li class="skype">
+                        Skype: nastassia0301
+                    </li>
+                    <li class="web">
+                        <a href="https://linkedin.com/in/abileichyk">Linkedin</a>
+                    </li>
+                </ul>
+            </div>
+        </address>
+        <section class="my_skills">
+            <h4>SKILLS</h4>
+            <div class="skills_details">
+                <ul>
+                    <li>
+                        JavaScript, CSS, HTML, TypeScript
+                    </li>
+                    <li>
+                        Webpack
+                    </li>
+                    <li>
+                        Git and Github
+                    </li>
+                    <li>
+                        Angular
+                    </li>
+                    <li>
+                        Jira
+                    </li>
+                    <li>
+                        Webstorm
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="languages">
+            <h4>LANGUAGES</h4>
+            <div class="lang_details">
+                <ul>
+                    <li>
+                        English: Intermediate
+                    </li>
+                    <li>
+                        Belarusian: Native
+                    </li>
+                    <li>
+                        Russian: Native
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="code_example">
+            <h4>CODE EXAMPLES</h4>
+            <pre>
+                <code class="language-javascript">
+                  function solution(number) {
+                    let count = 0;
+                    for (let i = 1; i &lt; number; i++) {
+                      if (i % 3 === 0 || i % 5 === 0) {
+                        count = count + i;
+                      }
+                    }
+                    return count;
+                  }
+                </code>
+            </pre>
+        </section>
+        <section class="video_cv">
+            <div class="video_content">
+              <h4>My video CV</h4>
+              <iframe src="https://www.youtube.com/embed/ihkAtg-_ZV0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+    </div>
+    <div class="main_info">
+        <header class="self">
+            <div class="name">
+              <h1 class="my_name">ANASTASIA BILEICHYK</h1>
+            </div>
+            <div class="job"><h3>Junior Front-End Developer</h3></div>
+        </header>
+        <section class="about_me">
+            <h4>SUMMARY</h4>
+            <div class="about_me_content">
+                <p>
+                    I am a purposeful person who achieves goals and can adjust quickly to new surroundings. My qualities such as sociability, flexibility and reliability make me good at teamwork.
+                    My work experience taught me decision-making, problem-solving and analytical skills, as well as being well-organized. I try to improve my technical skills, English language
+                    and soft skills.
+                </p>
+            </div>
+        </section>
+        <section class="work_experience">
+            <h4>WORK EXPERIENCE</h4>
+        </section>
+        <section class="projects_container">
+            <h4>projects example</h4>
+            <div class="projects_wrapper">
+                <article class="projects_item">
+                    <a href="https://rolling-scopes-school.github.io/kinskaya-JSFE2021Q1/wildlife/" class="projects_link" target="_blank">
+                      <img class="projects_img" src="wildlife.jpeg" alt="wildlife_pic">
+                      <div class="projects_content">
+                        <h3 class="projects_title">Wildlife</h3>
+                        <p class="projects_subtitle">HTML, CSS</p>
+                        <p class="projects_description">
+                            A page with interactive elements
+                        </p>
+                      </div>
+                    </a>
+                </article>
+            </div>
+        </section>
+        <section class="education">
+            <h4>EDUCATION</h4>
+            <div class="edu">
+                <h5>The Rolling Scopes School</h5>
+                <p>August 2021 – present time</p>
+                <em>Course: Angular</em>
+                <p>Description: studying theory and development an Angular app</p>
+            </div>
+            <div class="edu">
+                <h5>The Rolling Scopes School</h5>
+                <p>December 2020 – July 2021</p>
+                <em>Course: JavaScript/Front-end</em>
+                <p>Description:
+                    solving algorithmic tasks; development layouts including adaptive ones (practice with Figma and PixelPerfect);
+                    development apps, including SPA; presentation experience in Reveal.js in English (about Jira), self-presentation
+                </p>
+            </div>
+            <div class="edu">
+                <h5>Educational Center of HTP (IT-Academy)</h5>
+                <p>June 2019 – August 2019</p>
+                <em>Course: Business analysis for IT</em>
+            </div>
+            <div class="edu">
+                <h5>Institute of retraining and advanced training of trade managers and specialist</h5>
+                <p>2008 – 2010</p>
+                <em>Specialization: Logistics specialist-economist</em>
+            </div>
+            <div class="edu">
+                <h5>Russian state social University, branch in Minsk</h5>
+                <p>2002 – 2007</p>
+                <em>Specialization: Social work specialist</em>
+            </div>
+        </section>
+        <footer class="main_footer">
+            <div class="additional_info">
+                <nav class="github">
+                    <a href="https://github.com/Kinskaya">My GitHub</a>
+                </nav>
+                <div class="year">
+                    <p>© 2021</p>
+                </div>
+                <nav class="rs_school">
+                    <a href="https://rs.school/js/"><img class="school" src="rs_school_js.svg" alt="logo-rs_school_js"></a>
+                </nav>
+            </div>
+        </footer>
+    </div>
+  </main>
+</div>
+</body>
+</html>
