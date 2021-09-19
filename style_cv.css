@@ -1,0 +1,177 @@
+html, body, div, span, h1, h2, h3, h4, h5, p, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    text-decoration: none;
+    font-family: Palatino, serif;
+}
+
+.wrapper {
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.main_cv {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 900px;
+    padding: 0 10px;
+}
+
+.main_info {
+    height:100%;
+    float: left;
+    width: 62%;
+    background: #c2d2e9;
+    color: #094d74;
+}
+
+.extras {
+    height:100%;
+    max-width: 302px;
+    float: left;
+    width: 38%;
+    background-color: #5e83ba;
+    color: #c2d2cd;
+}
+
+.web a {
+    color: #c2d2cd;
+}
+
+.photo img {
+    max-width: 200px;
+    width: 100%;
+    border: 3px solid #c2d2e9;
+    border-radius: 25px;
+}
+
+.photo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.skills, .lang, .code, .self, .summary, .work, .education {
+    text-align: center;
+}
+
+.contacts p {
+    text-align: center;
+}
+.about_me, .work_experience, .education, .contacts, .my_skills, .languages, .code_example {
+    margin: 40px 20px;
+}
+
+.about_me_content {
+    text-align: justify;
+    margin: 20px;
+}
+
+.edu {
+    margin: 20px;
+    text-align: justify;
+}
+
+.edu em {
+    color: #a560b1;
+}
+
+.name {
+    margin: 20px;
+}
+
+h1 {
+    font-size: 1.75rem;
+}
+
+.job {
+    margin: 20px;
+    box-shadow: inset 0 0 7px;
+    font-style: italic;
+}
+
+.additional_info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 558px;
+    width: 100%;
+    bottom: 10px;
+    color: white;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.github {
+    align-self: center;
+}
+
+img.school {
+    width: 140px;
+    height: 40px;
+}
+
+.year {
+    align-self: center;
+    color: black;
+}
+
+address {
+    font-style: normal;
+}
+
+h4, h5, .contacts p {
+    text-align: center;
+    text-transform: uppercase;
+    color: #38379a;
+    text-shadow: 0 5px 8px #c4b59d, 0 -2px 1px #fff;
+}
+
+pre {
+    text-align: left;
+    white-space: pre-line;
+}
+
+.projects_item {
+    max-width: 510px;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+.projects_img {
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.projects_content {
+    position: absolute;
+    top: 72%;
+    left: 20px;
+    text-decoration: none;
+    color: coral;
+    border: #4dab8c solid 2px;
+    border-radius: 5px;
+}
+
+.projects_subtitle {
+    color: #4dab8c;
+}
+
+.video_content {
+    max-width: 300px;
+    margin: 20px;
+}
+
+iframe {
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+}
+
